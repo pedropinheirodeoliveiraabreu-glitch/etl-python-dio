@@ -1,10 +1,15 @@
-# Projeto ETL com Python
+## Projeto de Pipeline de ETL com Python
 
-Este projeto foi criado como parte de um desafio da DIO para aprender o fluxo ETL (Extração, Transformação e Carregamento) usando Python.
+Este projeto foi desenvolvido com o objetivo de compreender o fluxo de ETL (Extração, Transformação e Carregamento).
 
-O objetivo não é criar um sistema complexo, mas compreender como os dados:
-1. São extraídos de uma fonte
-2. São transformados com alguma regra
-3. São carregados em um novo destino
+O foco principal  é aprender o fluxo ETL:
 
-As ferramentas utilizadas (CSV, Python e IA) servem apenas como meio para entender esse fluxo.
+- `Extração`: Leitura de dados a partir de um arquivo CSV.
+
+- `Transformação`: Enviar mensagens de marketing de acordo com o score de cada usuário.
+
+- `Carregamento`: gravação dos dados transformados em um novo arquivo.
+
+As ferramentas utilizadas (Python, pandas e arquivo CSV).
+
+O projeto foi estruturado com cada etapa do pipeline isolada em seu próprio arquivo.
